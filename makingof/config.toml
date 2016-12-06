@@ -1,4 +1,4 @@
-baseurl = "http://jsjeannotte.github.io"
+baseurl = "https://jsjeannotte.github.io/"
 title = "Matante JeeZ"
 languageCode = "fr-ca"
 theme = "hugo_theme_robust"
