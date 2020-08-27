@@ -40,14 +40,15 @@ function f(){
     all[i].style.maxWidth = '400px';
     all[i].style.width = '400px';
   }
+  console.log("update size")
 }
 
-window.addEventListener("load", function(){
-  window.setTimeout(f, 1000);
-  window.setTimeout(f, 2000);
-  window.setTimeout(f, 3000);
-  window.setTimeout(f, 10000);
-  
-});
+  window.addEventListener("load", function(){
+    window.setTimeout(f, 1000);
+    window.setTimeout(f, 2000);
+    window.setTimeout(f, 3000);
+    window.setTimeout(f, 10000);
+    
+  });
 </script>
 
